@@ -1,0 +1,77 @@
+
+
+/* General Page Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #343a40;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation Bar Styles */
+.navbar {
+  background-color: #007bff !important;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white !important;
+}
+
+.nav-link:hover {
+  background-color: #0056b3;
+  color: white !important;
+}
+
+/* Content Section Styles */
+.content {
+  padding: 50px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.content h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* Footer Styles */
+.footer {
+  padding: 20px;
+  background-color: #343a40;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .content {
+    padding: 20px;
+  }
+
+  .navbar {
+    font-size: 14px;
+  }
+}
