@@ -6,9 +6,9 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css';
 // Importing components that will be displayed in different routes
 import Content from './Components/header';
-import Footer from './Components/footer';
 import NavigationBar from './Components/NavigationBar';
 import Read from './Components/read';
+import Create from './Components/create';
 
 // Main App component where routing and layout is defined
 function App() {
@@ -22,7 +22,7 @@ function App() {
         {/* The 'Home' route will render the Content component */}
         <Route path="/Home" element={<Content />} />
         <Route path="/read" element={<Read />} />
-        <Route path="/create" element={<Footer />} />
+        <Route path="/create" element={<Create />} />
     </Routes>
     </div>
     </Router>
