@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import Movies from "./movies";
 import axios from "axios";
 
+
 // The Read component, which serves as a container to display a list of movies
 const Read = ()=>{
     // Data array containing movie details, including title, year, IMDB ID, type, and poster URL
