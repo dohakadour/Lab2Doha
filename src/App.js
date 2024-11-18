@@ -9,6 +9,9 @@ import Content from './Components/header';
 import NavigationBar from './Components/NavigationBar';
 import Read from './Components/read';
 import Create from './Components/create';
+import Header from './Components/header';
+import Edit from './Components/edit';
+
 
 // Main App component where routing and layout is defined
 function App() {
@@ -23,6 +26,7 @@ function App() {
         <Route path="/Home" element={<Content />} />
         <Route path="/read" element={<Read />} />
         <Route path="/create" element={<Create />} />
+        <Route path="/edit/:id" element={<Edit />} />
     </Routes>
     </div>
     </Router>

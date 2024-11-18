@@ -1,7 +1,7 @@
 // create.js
 
 import { useState } from "react";
-import Movies from "./movies";
+
 import axios from 'axios';
 
 
@@ -28,7 +28,7 @@ function Create() {
       .then((res) => console.log(res.data))
       .catch((err) => console.log(err.data));
 
-      console.log(Movies);
+      
   };
 
   return (
@@ -54,7 +54,7 @@ function Create() {
 
         <div className="form-group">
           <label>Movie Poster: </label>
-          <input type="url"
+          <input type="text"
             className="form-control"
             value={poster}
             onChange={(e) => { setPoster(e.target.value) }}/>
